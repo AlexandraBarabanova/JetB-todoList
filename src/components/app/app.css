@@ -1,0 +1,97 @@
+@import "@jetbrains/ring-ui/components/global/variables.css";
+
+html,
+.app-root {
+  height: 100%;
+}
+
+.app-root {
+  margin: 0;
+  padding: 0;
+
+  background: var(--ring-content-background-color);
+
+  font-family: var(--ring-font-family);
+  font-size: var(--ring-font-size);
+  line-height: var(--ring-line-height);
+}
+
+.app-content {
+  margin: calc(var(--ring-unit) * 4);
+}
+
+.header form > div {
+  display: inline-block;
+}
+.header form > button {
+  bottom: 20px;
+  left: 20px;
+}
+
+.header {
+  border: #eef2f5 solid;
+  border-bottom: none;
+  padding-bottom: 5px;
+}
+
+.filterSort {
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  margin-right: 20px;
+}
+.filterSort > button {
+  margin-right: 10px;
+}
+.header form {
+  display: inline-block;
+}
+
+.theList {
+  border: #eef2f5 solid;
+}
+
+.theList > span{
+  text-align: center;
+  display: block;
+  margin: 20px;
+  color: #bac4ce;
+  font-size: 16px;
+}
+
+.list > div {
+  display: inline-block;
+  width: 93%;
+}
+.list:hover {
+  background: #D4EDFF!important;
+}
+.list {
+  background: #f4f4f4;
+}
+.list.check {
+  background: #e7ffef;
+}
+
+.pager_727 {
+  margin: 10px;
+}
+
+.hover_7c7:not(.error_cd6) {
+  background: transparent;
+}
+.list > label,
+.filterSort > label {
+  margin-left: 10px;
+}
+.list > label,
+.list > button {
+  position: relative;
+  bottom: 20px;
+}
+
+@media (max-width: 1100px) {
+  .list > div {
+    width: 90%;
+  }
+}
